@@ -214,7 +214,7 @@ lrtest_logit
 lrtest_probit <- lrtest(probit_model, rm_probit)
 lrtest_probit
 
-#not testes
+#not tested yet
 #5 Confusion matrix
 
 # Predict the probabilities
