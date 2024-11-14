@@ -2,8 +2,8 @@
 ## Class  17 Econometrics 1 (Economics - University of Beira Interior)  ##
 ##                                                                      ##
 
-#Limited dependent variable models: applications
-#This file may contain errors, if you have any questions please contact tiago.afonso@ubi.pt via Teams
+# Limited dependent variable models: applications
+# This file may contain errors, if you have any questions please contact tiago.afonso@ubi.pt via Teams
 
 #
 rm(list=ls())
