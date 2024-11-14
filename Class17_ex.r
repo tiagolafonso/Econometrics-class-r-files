@@ -14,7 +14,6 @@ ch <- function () {
 }
 ch()
 
-
 library(readxl) #read external files
 library(stargazer) #manipulatns data frame
 library(tidyverse) #estimating models
@@ -50,12 +49,10 @@ probit_model <- glm(train~unem74+unem75+age+educ+hisp+married,
                     family=binomial(link="probit"),
                     data=jtrain)
 summary(probit_model)
-
 lrtest(probit_model)
 
 #iv
 #theoretical
-
 
 #v
 model_2 <- lm(unem78~train,jtrain)
