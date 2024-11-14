@@ -1,4 +1,7 @@
-#class11 - Brief Inroduction to R
+##                                   ##
+## Class11 - Brief Inroduction to R  ##
+##                                   ##
+
 #this script is a brief introduction to R that may contain errors and/or omissions
 #it is intended to be used as a guide for the class
 
