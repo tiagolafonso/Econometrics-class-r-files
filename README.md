@@ -8,7 +8,8 @@ The code may contain errors. If you have any questions, please contact tiago.afo
 - The file `Class17_ex.r`contains the R code from class 17 of Econometric 1. Data files: *jtrains2.xlsx*;*charity.xlsx*
 - The file `Class19_ex.r`contains the R code from class 17 of Econometric 1. Data files: *ceosal1.csv*;*gpa1.xlsx*;*sleep75.xlsx*
 
-More infor about data files:
+More infor about the data files:
+
 ```{r}
 install.pacakges("wooldridge.xlsx")
 library(wooldridge)
