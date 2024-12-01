@@ -33,9 +33,15 @@ curve(dnorm(x, mean=mean(htv$educ, na.rm=TRUE), #curva normal
 #estimar modelo
 model <- lm(educ ~ tenure, data=htv)
 summary(model)
+
+
 #ver Kurtosis e Skewness da variável educ
 
 #library - moments
 library(moments)
+
+#cacular skewness
 moments::skewness(htv$educ)
+
+#calcular Kurtosis
 moments::kurtosis(htv$educ)
