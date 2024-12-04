@@ -33,7 +33,7 @@ View(hprice1)
 plot(hprice1$sqrft,
     hprice1$price,
     xlab="Área",
-    ylab="Varável Dependente Price",
+    ylab="Variável Dependente Price",
     main="Observar Heterocedasticidade")
 
 #criar erro ao quadrado e previsão ao quadrado
