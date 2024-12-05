@@ -132,3 +132,42 @@ stargazer(m2_male,m2_female,type="text")
 #ii
 full_model <- lm(sleep~totwrk+educ+age+agesq+yngkid+male,sleep)
 summary(full_model)
+
+###    ###
+### c8 ###
+###    ###
+
+rm(list=ls())
+
+#load data loanapp
+loanapp <- read.csv("loanapp.csv")
+head(loanapp)
+
+#i)
+#estimar modelo
+lpm_approve <- lm(approve~white+other,loanapp)
+summary(lpm_approve)
+
+#positivo
+
+#ii)
+lpm_approve_white <- lm(approve~white,loanapp)
+summary(lpm_approve_white)
+
+
+#iii)
+#estimar modelo
+lpm_approve_full <- lm(approve~white+other+hrat+obrat+loanprc+unem+male+
+                                married+dep+sch+cosign+chist+pubrec+mortlat1+mortlat2+vr, loanapp)
+summary(lpm_approve_full)
+
+stargazer(lpm_approve,lpm_approve_full,type="text")
+
+#iv)
+lpm_approve_int <- lm(approve~white+obrat+white*obrat, loanapp)
+
+summary(lpm_approve_int)
+
+#v) white=1, obrat=32
+predict(lpm_approve_int, data.frame(white=1,obrat=32), type="response")
+#90.85%
