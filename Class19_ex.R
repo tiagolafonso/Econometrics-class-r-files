@@ -58,7 +58,6 @@ stargazer(model_lsalary_,model_lsalary_2,type = "text") #comparar modelos
 ##
 ## C1
 ##
-
 rm(list=ls())
 gpa <- read_xlsx("gpa1.xlsx")
 
@@ -91,7 +90,6 @@ gpa$hsGPA_sq <- gpa$hsGPA^2
 #estimar modelo
 model_gpa_full_2 <- lm(colGPA~PC+hsGPA+ACT+mothcoll+fathcoll+hsGPA_sq,gpa)
 summary(model_gpa_full_2)
-
 stargazer(model_gpa_full,model_gpa_full_2,type="text")
 
 ###
@@ -102,7 +100,6 @@ rm(list = ls())
 sleep <- read_xlsx("sleep75.xlsx")
 
 #i)
-
 #opção1
 #criar 2 sub sample
 
@@ -154,20 +151,17 @@ summary(lpm_approve)
 lpm_approve_white <- lm(approve~white,loanapp)
 summary(lpm_approve_white)
 
-
 #iii)
 #estimar modelo
 lpm_approve_full <- lm(approve~white+other+hrat+obrat+loanprc+unem+male+
                                 married+dep+sch+cosign+chist+pubrec+mortlat1+mortlat2+vr, loanapp)
 summary(lpm_approve_full)
-
 stargazer(lpm_approve,lpm_approve_full,type="text")
 
 #iv)
 lpm_approve_int <- lm(approve~white+obrat+white*obrat, loanapp)
 
 summary(lpm_approve_int)
-
 #v) white=1, obrat=32
 predict(lpm_approve_int, data.frame(white=1,obrat=32), type="response")
 #90.85%
