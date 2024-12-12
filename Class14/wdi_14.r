@@ -43,7 +43,7 @@ p2 <- ggplot(wdi_data, aes(x = year, y = gdp_diff)) +
        x = "Year",
        y = "GDP (constant LCU)")+
        theme_minimal()
-#p1 aand p2
+#p1 and p2
 grid.arrange(p1, p2, nrow = 2)
 #gen dummy variable for financial crisis (2009-2013)
 wdi_data <- wdi_data %>% mutate(fc = ifelse(year >= 2009 & year <= 2013, 1, 0))
