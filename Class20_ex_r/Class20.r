@@ -129,7 +129,7 @@ model_alcohol_lpm_full <- lm(employ~abuse+age+agesq+educ+
                       midwest+south+centcity+outercity+qrt1+
                       qrt2+qrt3, data=alcohol)
 
-#compara modelos
+#comparar modelos
 stargazer(model_alcohol_lpm,model_alcohol_lpm_full, type="text")
 modelsummary(list(model_alcohol_lpm,model_alcohol_lpm_full))
 
