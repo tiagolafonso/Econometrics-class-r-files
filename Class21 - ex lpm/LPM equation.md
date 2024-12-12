@@ -7,3 +7,9 @@ $$
 
 where $y$ is the binary dependent variable, $x$ is the independent variable, and $\epsilon$ is the error term. The model is estimated using ordinary least squares (OLS) regression. The predicted probability of $y=1$ is given by the linear combination of the independent variables and the estimated coefficients. The model is used to estimate the probability of an event occurring based on the values of the independent variables. The coefficients of the model represent the change in the probability of the event occurring for a one-unit change in the independent variable, holding all other variables constant.
 
+```R
+# Load the data
+data <- read.csv("data.csv")
+lpm_model <- lm(y ~ x1 + x2 + x3, data = data)
+summary(lpm_model)
+```
