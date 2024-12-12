@@ -1,4 +1,5 @@
 rm(list=ls())
+
 ch <- function () {
   write("", file=".blank")
   loadhistory(".blank")
@@ -24,7 +25,6 @@ library(sandwich) #empirical estimation function
 library(nlme) #non linear
 library(skedastic) #heteroskedasticity
 library(tseries) # time series
- 
 
 gpa2 <- read_xlsx("gpa2.xlsx")
 
@@ -73,13 +73,11 @@ head(k401k)
 #
 table(k401k$e401k)
 
-
 #ii)
 modelo_e401k <- lm(e401k ~ inc + age + male + incsq + agesq, data = k401k)
 summary(modelo_e401k)
 
 #iii)
-
 
 #iv)
 k401k$e401k_hat <- fitted(modelo_e401k)
