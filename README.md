@@ -13,6 +13,7 @@ The code may contain errors. If you have any questions, please contact tiago.afo
 More infor about the data files:
 
 ```{r}
+#in R
 install.pacakges("wooldridge")
 library(wooldridge)
 ?data(data_file_name) #data name should be without the file extension
