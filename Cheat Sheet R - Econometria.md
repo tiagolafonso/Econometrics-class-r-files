@@ -9,6 +9,8 @@ library(nome_biblioteca)
 
 **Importar dados**
 ```R
+library(readxl)
+
 #csv
 dados <- read.csv("caminho/para/ficheiro.csv")
 
