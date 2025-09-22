@@ -1,4 +1,4 @@
-# Preparar ambiente para o R
+# 00 Preparar ambiente para o R
 
 ## 1. Instalar o R
    - Aceder ao site oficial do R: [https://cran.r-project.org/](https://cran.r-project.org/bin/windows/base/)
@@ -107,5 +107,6 @@ Depois de instaladas as bibliotecas, é necessário carregá-las no script para 
 library(tidyverse)
 library(readxl)
 ```
+
 
 e pressionar `ctrl+enter` para executar cada linha.
