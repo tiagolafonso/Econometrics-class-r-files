@@ -9,12 +9,17 @@
 > requer ligação à rede `eduroam`
 
 **1.** Pressionar `Win + R` para abrir a janela `Executar`.
+
 **2.** Inserir `\\eviews.ubi.pt\` e pressionar `Enter`.
+
 **3.** Se necessário, inserir as credenciais da UBI.
+
 **4.** Copiar a pasta `EViews13` para uma pasta de fácil acesso no computador (exemplo: `Documentos`) - pode demorar alggum tempo.
+
 >COPIAR A PASTA E NÃO CRIAR UM ATALHO ou ARRASTAR A PASTA
 
 **5.** Abrir a pasta do computador e procurar o ficheiro `EViews13.exe` dentro da pasta `EViews13` copiada.
+
 **6.** Botão direito do rato no ficheiro `EViews13.exe` e escolher `Afixar no Menu Iniciar`.
 
 ---
@@ -39,6 +44,7 @@
 
 
 **5.** Inserir o Serial Number que receberam por email:
+
 
 
 ![install](imagens/eviews3.png)
