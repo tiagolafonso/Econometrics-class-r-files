@@ -11,7 +11,7 @@ The code may contain errors. If you have any questions, please contact tiago.afo
 - The folder `Class21 - ex lpm` contains the R code and data files of class 21 of Econometrics 1.
 - The folder `Class23` contains the R code and data files of class 23 of Econometrics 1.
 
-More infor about the data files:
+More info about the data files:
 
 ```{r}
 #in R
