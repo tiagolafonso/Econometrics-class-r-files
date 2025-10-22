@@ -127,19 +127,21 @@ to $\color{purple}{fsize =1}$.
     e401k\*inc. Estimate the equation by OLS and obtain the usual and
     robust standard errors. What do you conclude about the statistical
     significance of the interaction term?
+    
     $$
     \color{purple}{nettfa=\beta_0+\beta_1 inc+\beta_2 (age-25)^2+\beta_3 male+\beta_4 e401k+\beta_5 (e401k\*inc)+\mu}\_i
     $$
 
-2.  Now estimate the more general model by WLS using the same weights,
+3.  Now estimate the more general model by WLS using the same weights,
     $\color{purple}{1/inc_i}$, as in Table 8.1. Compute the usual and
     robust standard error for the WLS estimator. Is the interaction term
     statistically significant using the robust standard error?
 
-3.  Discuss the WLS coefficient on $\color{purple}{e401k}$ in the more
+4.  Discuss the WLS coefficient on $\color{purple}{e401k}$ in the more
     general model. Is it of much interest by itself? Explain.
 
-4.  Reestimate the model by WLS but use the interaction term
+5.  Reestimate the model by WLS but use the interaction term
     $\color{purple}{e401k\*(inc – 30)}$.
+
 
 
