@@ -36,13 +36,8 @@ statistically significant at the 5% level?”
     the explanatory variables ($\color{purple}{lotsize}$ and $\color{purple}{bdrms}$). Do these plots
     visually suggest the presence of heteroscedasticity?
 
-2.  Perform the Breusch-Pagan test for heteroscedasticity for the
-    previous equation. Clearly state the null hypothesis
-    ($\color{purple}{H_0}$) and the alternative hypothesis
-    ($\color{purple}{H_1}$).Report the relevant test statistic (in its
-    *F* or *L**M* form) and the associated p-value. Based on this
-    result, what do you conclude about the presence of
-    heteroscedasticity?”
+2.  Perform the Breusch-Pagan test for heteroscedasticity for the previous equation. Clearly state the null hypothesis
+    ($\color{purple}{H_0}$) and the alternative hypothesis ($\color{purple}{H_1}$).Report the relevant test statistic (in its $\color{purple}{F}$ or $\color{purple}{LM}$ form) and the associated p-value. Based on this result, what do you conclude about the presence of heteroscedasticity?
 
 3.  Use the data in **HPRICE1** to obtain the heteroscedasticity-robust
     standard errors for the equation:
@@ -146,4 +141,5 @@ to $\color{purple}{fsize =1}$.
 
 4.  Reestimate the model by WLS but use the interaction term
     $\color{purple}{e401k\*(inc – 30)}$.
+
 
