@@ -128,9 +128,9 @@ to $\color{purple}{fsize =1}$.
     robust standard errors. What do you conclude about the statistical
     significance of the interaction term?
     
-    $$
-    \color{purple}{nettfa=\beta_0+\beta_1 inc+\beta_2 (age-25)^2+\beta_3 male+\beta_4 e401k+\beta_5 (e401k\*inc)+\mu}\_i
-    $$
+$$
+\color{purple}{nettfa=\beta_0+\beta_1 inc+\beta_2 (age-25)^2+\beta_3 male+\beta_4 e401k+\beta_5 (e401k*inc)+\mu}_i
+$$
 
 3.  Now estimate the more general model by WLS using the same weights,
     $\color{purple}{1/inc_i}$, as in Table 8.1. Compute the usual and
@@ -142,6 +142,7 @@ to $\color{purple}{fsize =1}$.
 
 5.  Reestimate the model by WLS but use the interaction term
     $\color{purple}{e401k\*(inc – 30)}$.
+
 
 
 
