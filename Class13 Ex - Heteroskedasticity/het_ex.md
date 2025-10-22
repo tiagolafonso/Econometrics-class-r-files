@@ -33,7 +33,7 @@ statistically significant at the 5% level?”
 1.  After estimating the model in (a), obtain the residuals,
     $\color{purple}{\hat{\mu}\_i}$. Construct a scatter plot of the
     squared residuals ($\color{purple}{\hat{\mu}\_i^2}$) against each of
-    the explanatory variables (lotsize and bdrms). Do these plots
+    the explanatory variables ($\color{purple}{lotsize}$ and $\color{purple}{bdrms}$). Do these plots
     visually suggest the presence of heteroscedasticity?
 
 2.  Perform the Breusch-Pagan test for heteroscedasticity for the
@@ -146,3 +146,4 @@ to $\color{purple}{fsize =1}$.
 
 4.  Reestimate the model by WLS but use the interaction term
     $\color{purple}{e401k\*(inc – 30)}$.
+
