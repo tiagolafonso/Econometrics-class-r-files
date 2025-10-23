@@ -30,16 +30,16 @@ errors, number of observations, and *R*<sup>2</sup>). Interpret the
 meaning of the estimated coefficient on lotsize. Is this coefficient
 statistically significant at the 5% level?”
 
-1.  After estimating the model in (a), obtain the residuals,
+2.  After estimating the model in (a), obtain the residuals,
     $\color{purple}{\hat{\mu}\_i}$. Construct a scatter plot of the
     squared residuals ($\color{purple}{\hat{\mu}\_i^2}$) against each of
     the explanatory variables ($\color{purple}{lotsize}$ and $\color{purple}{bdrms}$). Do these plots
     visually suggest the presence of heteroscedasticity?
 
-2.  Perform the Breusch-Pagan test for heteroscedasticity for the previous equation. Clearly state the null hypothesis
+3.  Perform the Breusch-Pagan test for heteroscedasticity for the previous equation. Clearly state the null hypothesis
     ($\color{purple}{H_0}$) and the alternative hypothesis ($\color{purple}{H_1}$).Report the relevant test statistic (in its $\color{purple}{F}$ or $\color{purple}{LM}$ form) and the associated p-value. Based on this result, what do you conclude about the presence of heteroscedasticity?
 
-3.  Use the data in **HPRICE1** to obtain the heteroscedasticity-robust
+4.  Use the data in **HPRICE1** to obtain the heteroscedasticity-robust
     standard errors for the equation:
 
 $$
@@ -48,16 +48,16 @@ $$
 
 Discuss any important differences with the usual standard errors.
 
-4.  Repeat the part (v) for equation:
+5.  Repeat the part (v) for equation:
 
 $$
 \color{purple}{log(price) = \beta_0 + \beta_1 log(lotsize) + \beta_2 log(bdrms) + \mu_i}
 $$
 
-5.  What does this example suggest about heteroscedasticity and the
+6.  What does this example suggest about heteroscedasticity and the
     transformation used for the dependent variable?
 
-6.  Apply the full White test for heteroscedasticity for equation (v).
+7.  Apply the full White test for heteroscedasticity for equation (v).
     Using the chi square form of the statistic, obtain the p-value. what
     do you conclude?
 
@@ -142,6 +142,7 @@ $$
 
 5.  Reestimate the model by WLS but use the interaction term
     $\color{purple}{e401k\*(inc – 30)}$.
+
 
 
 
