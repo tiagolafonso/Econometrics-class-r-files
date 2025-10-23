@@ -3,6 +3,9 @@ Tiago Afonso
 
 # R Packages for Econometrics
 
+> [!NOTE]
+> Copy and paste all the code to a positron script and run all
+
 ``` r
 rm(list=ls())
 ch <- function () {
@@ -113,3 +116,4 @@ heteroskadasticity tests - estimate base model
 `confusionMatrix` - classification matrix
 
 `mfx` - partial effects
+
