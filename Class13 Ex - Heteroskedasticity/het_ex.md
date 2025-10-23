@@ -85,7 +85,7 @@ Use the data in **LOANAPP** for this exercise.
     confidence interval.
 
 $$
-\color{purple}{approve = \beta_0 + \beta_1 yjob + otherfactors}
+\color{purple}{approve = \beta_0 + \beta_1 yjob + \beta_2 otherfactors}
 $$
 
 1.  Obtain the fitted values from the regression in part (i). Are any of
@@ -142,6 +142,7 @@ $$
 
 5.  Reestimate the model by WLS but use the interaction term
     $\color{purple}{e401k\*(inc – 30)}$.
+
 
 
 
