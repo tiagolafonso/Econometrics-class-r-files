@@ -48,16 +48,16 @@ $$
 
 Discuss any important differences with the usual standard errors.
 
-1.  Repeat the part (v) for equation:
+4.  Repeat the part (v) for equation:
 
 $$
 \color{purple}{log(price) = \beta_0 + \beta_1 log(lotsize) + \beta_2 log(bdrms) + \mu_i}
 $$
 
-1.  What does this example suggest about heteroscedasticity and the
+5.  What does this example suggest about heteroscedasticity and the
     transformation used for the dependent variable?
 
-2.  Apply the full White test for heteroscedasticity for equation (v).
+6.  Apply the full White test for heteroscedasticity for equation (v).
     Using the chi square form of the statistic, obtain the p-value. what
     do you conclude?
 
@@ -142,6 +142,7 @@ $$
 
 5.  Reestimate the model by WLS but use the interaction term
     $\color{purple}{e401k\*(inc – 30)}$.
+
 
 
 
