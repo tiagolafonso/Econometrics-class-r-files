@@ -12,7 +12,7 @@ Wooldridge - Introductory Econometrics: A Modern Approach - Page 270
 -   **Livro**: Introductory Econometrics: A Modern Approach - Jeffrey M.
     Wooldridge
 -   **Página**: 270
--   **Tema**: Heteroskedasticity (Heteroscedasticidade)
+-   **Tema**: Heteroskedasticity
 -   **Subject**: Econometria I
 -   **Aula**: Class 13 - Exercícios sobre Heteroscedasticidade
 
@@ -142,6 +142,7 @@ $$
 
 5.  Reestimate the model by WLS but use the interaction term
     $\color{purple}{e401k\*(inc – 30)}$.
+
 
 
 
