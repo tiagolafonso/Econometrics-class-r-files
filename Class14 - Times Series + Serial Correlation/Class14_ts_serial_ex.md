@@ -7,7 +7,7 @@ Tiago Afonso
 
 # Eviews
 
-**Ficheiro ts.xlsx**
+**File ts.xlsx**
 
 1.  Check for trend and seasonality in all sheets.
 
@@ -17,7 +17,7 @@ Tiago Afonso
 
 4.  Generate seasonal dummies.
 
-**Ficheiro CocaCola_stock.xlsx**
+**File CocaCola_stock.xlsx**
 
 1.  Check for trend and seasonality.
 
@@ -27,7 +27,7 @@ Tiago Afonso
 
 ## Serial Correlation Exercises
 
-**Ficheiro ser_corr.xlsx**
+**File ser_corr.xlsx**
 
 ### Eviews
 
@@ -52,3 +52,4 @@ Tiago Afonso
 
 5.  Estimate the model using HAC standard errors. Discuss any important
     differences with the usual standard errors.
+
