@@ -1,7 +1,7 @@
 # Serial Correlation Exercise
 Tiago Afonso
 
-# Class 13 - Time Series
+# Class 14 - Time Series
 
 ## Trend and seasonality
 
@@ -52,4 +52,5 @@ Tiago Afonso
 
 5.  Estimate the model using HAC standard errors. Discuss any important
     differences with the usual standard errors.
+
 
