@@ -1,0 +1,52 @@
+---
+title: "Serial Correlation Exercise"
+format: md
+author: "Tiago Afonso"
+editor: visual
+---
+
+# Class 13 - Time Series
+
+## Trend and seasonality
+
+# Eviews
+
+**Ficheiro ts.xlsx**
+
+1.  Check for trend and seasonality in all sheets.
+
+2.  Detrend and deseasonalize the series.
+
+3.  Check for stationarity.
+
+4.  Generate seasonal dummies.
+
+**Ficheiro CocaCola_stock.xlsx**
+
+1.  Check for trend and seasonality.
+
+2.  Generate returns and check for stationarity.
+
+3.  generate seasonal dummies for workdays (Monday to Friday).
+
+## Serial Correlation Exercises
+
+**Ficheiro ser_corr.xlsx**
+
+### Eviews
+
+1.  estimate the model:
+
+$$
+lcons_t = \beta_0 + \beta_1 lprice_t + \beta_2 ldisp_t + u_t
+$$
+
+2.  Obtain the residuals and plot them against time. Do you see any pattern?
+
+3.  Plot $u_t$ against $u_{t-1}$. Do you see any pattern? What does it suggest?
+
+4.  Perform the Breusch-Godfrey test for serial correlation. Clearly state the null hypothesis ($H_0$) and the alternative hypothesis ($H_1$). Report the relevant test statistic and the associated p-value. Based on this result, what do you conclude about the presence of serial correlation?
+
+5.  Check for heteroskedasticity in the original model. Use a proper test and explain your results.
+
+6.  Estimate the model using HAC standard errors. Discuss any important differences with the usual standard errors.
