@@ -33,7 +33,7 @@ Tiago Afonso
 
 1.  estimate the model:
 
-*l**c**o**n**s*<sub>*t*</sub> = *β*<sub>0</sub> + *β*<sub>1</sub>*l**p**r**i**c**e*<sub>*t*</sub> + *β*<sub>2</sub>*l**d**i**s**p*<sub>*t*</sub> + *u*<sub>*t*</sub>
+*l**c**o**n**s*<sub>*t*</sub> = *β*<sub>0</sub> + *β*<sub>1</sub>*l**p**r**i**ce*<sub>*t*</sub> + *β*<sub>2</sub>*l**d**i**s**p*<sub>*t*</sub> + *u*<sub>*t*</sub>
 
 1.  Obtain the residuals and plot them against time. Do you see any
     pattern?
@@ -52,5 +52,6 @@ Tiago Afonso
 
 5.  Estimate the model using HAC standard errors. Discuss any important
     differences with the usual standard errors.
+
 
 
