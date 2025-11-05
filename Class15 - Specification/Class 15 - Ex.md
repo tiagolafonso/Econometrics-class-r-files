@@ -192,11 +192,13 @@ and report the results in the usual OLS form. Interpret the slope coefficients.
 
 **(ii)** Add $bdrms^2$ to the regression in part (i). Is it statistically significant at the 5% level? What does its sign imply about the relationship between number of bedrooms and log(price)?
 
-**(iii)** Find the predicted value of `price` at the same values of the explanatory variables.
+**(iii)** Find the predicted value of `price` when `lotsize` = 20,000, `sqrft` = 2,500, and `bdrms` = 4. Using the methods
+in Section 6-4, find the predicted value of price at the same values of the explanatory variables..
 
 **(iv)** For explaining variation in price, decide whether you prefer the model from part (i) or the model: 
 
 $$
 price = \beta_0 + \beta_1 lotsize + \beta_2 sqrft + \mu
 $$
+
 
