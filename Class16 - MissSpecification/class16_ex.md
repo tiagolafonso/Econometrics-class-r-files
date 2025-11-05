@@ -126,9 +126,7 @@ Use the data in `ATTEND` for this exercise.
 1. Obtain the minimum, maximum, and average values for the variables **atndrte**, **priGPA**, and **ACT**.  
 2. Estimate the model  
 
-   $$
-   \color{purple}atndrte = \beta_0 + \beta_1 priGPA + \beta_2 ACT + \mu
-   $$  
+   $$\color{purple}atndrte = \beta_0 + \beta_1 priGPA + \beta_2 ACT + \mu$$  
 
    and write the results in equation form. Interpret the intercept. Does it have a useful meaning?  
 3. Discuss the estimated slope coefficients. Are there any surprises?  
@@ -146,9 +144,8 @@ Use the data set in `WAGE2` for this problem. As usual, be sure all of the follo
 3. Run the multiple regression of $\color{purple}\log(wage)$ on **educ** and **IQ**, and obtain the slope coefficients, $\color{purple}\beta_1$ and $\color{purple}\beta_2$, respectively.  
 4. Verify that  
 
-   $$
-   \color{purple}\tilde{\beta}_1 = \beta_1 + \beta_2 \delta_1
-   $$  
+   $$\color{purple}\tilde{\beta}_1 = \beta_1 + \beta_2 \delta_1$$  
+
 
 
 
