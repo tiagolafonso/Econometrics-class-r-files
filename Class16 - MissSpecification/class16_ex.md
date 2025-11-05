@@ -85,9 +85,11 @@ The variables **math12** and **read12** are scores on twelfth grade standardized
 1. How many students are in the sample? Find the means and standard deviations of **math12** and **read12**.  
 2. Run the simple regression of **math12** on **read12** to obtain the OLS intercept and slope estimates. Report the results in the form:  
 
+
    $$
    \color{purple}math12 = \beta_0 + \beta_1 read12, \quad n = ?, \quad R^2 = ?
    $$  
+
 
 3. Does the intercept reported in part (ii) have a meaningful interpretation? Explain.  
 4. Are you surprised by the $\color{purple}\beta_1$ that you found? What about $\color{purple}R^2$?  
@@ -151,3 +153,4 @@ Use the data set in `WAGE2` for this problem. As usual, be sure all of the follo
    $$
    \color{purple}\tilde{\beta}_1 = \beta_1 + \beta_2 \delta_1
    $$  
+
