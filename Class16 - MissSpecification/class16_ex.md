@@ -1,4 +1,4 @@
-# **Class 15 exercices**
+# **Class 16 exercices**
 
 ## **Eviews**
 
@@ -145,6 +145,7 @@ Use the data set in `WAGE2` for this problem. As usual, be sure all of the follo
 4. Verify that  
 
    $$\color{purple}\tilde{\beta}_1 = \beta_1 + \beta_2 \delta_1$$  
+
 
 
 
