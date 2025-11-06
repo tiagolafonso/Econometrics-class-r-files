@@ -6,11 +6,11 @@ File: `class16_wdi.xlsx`
 
 Eviews
 
-**1.** Specify the variable with the highest minimum value.
+**1.** 
 
-**2.** Specify the variable with the highest maximum value.
+**1.** Specify the variable with the highest minimum value. Specify the variable with the highest maximum value.
 
-What is the percent change in GDP in 2009 compared to 2008?
+**2.** What is the percent change in GDP in 2009 compared to 2008?
 
 **3.**  Estimate the regression: gdp trade fdi co2 res. Check for multicollinearity in 4 different ways.
 
@@ -147,6 +147,7 @@ Use the data set in `WAGE2` for this problem. As usual, be sure all of the follo
 4. Verify that  
 
    $$\color{purple}\tilde{\beta}_1 = \beta_1 + \beta_2 \delta_1$$  
+
 
 
 
