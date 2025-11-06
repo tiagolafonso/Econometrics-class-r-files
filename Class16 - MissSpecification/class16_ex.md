@@ -27,7 +27,7 @@ Eviews
 
 **10.** Estimate a parsimonious model of the regression estimated in 4.
 
-**11.** Given the regression in question 5, check the impact of the 2008 financial crisis on the German economy. Was the impact cyclical or structural?
+**11.** Given the regression in question 5, check the impact of the 2008 financial crisis on the France economy. Was the impact cyclical or structural?
 
 **12.** Given the regression in question 5, check whether there is a structural break for 2008.
 
@@ -146,6 +146,7 @@ Use the data set in `WAGE2` for this problem. As usual, be sure all of the follo
 4. Verify that  
 
    $$\color{purple}\tilde{\beta}_1 = \beta_1 + \beta_2 \delta_1$$  
+
 
 
 
