@@ -108,7 +108,7 @@ Use the data in `GPA1` to answer these questions. It is a sample of Michigan Sta
 2. How many students owned their own PC?  
 3. Estimate the simple regression equation  
 
-   $\color{purple}colGPA_i = \beta_0 + \beta_1 PC_i + \mu_i$$  
+   $\color{purple}colGPA_i = \beta_0 + \beta_1 PC_i + \mu_i$
 
    and report your estimates for $\color{purple}\beta_0$ and $\color{purple}\beta_1$. Interpret these estimates, including a discussion of the magnitudes.  
 4. What is the R-squared from the regression? What do you make of its magnitude?  
@@ -144,6 +144,7 @@ Use the data set in `WAGE2` for this problem. As usual, be sure all of the follo
 4. Verify that  
 
    $$\color{purple}\tilde{\beta}_1 = \beta_1 + \beta_2 \delta_1$$  
+
 
 
 
