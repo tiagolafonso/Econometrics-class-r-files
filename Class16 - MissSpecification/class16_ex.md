@@ -31,13 +31,11 @@ Eviews
 
 **12.** Given the regression in question 5, check whether there is a structural break for 2008.
 
-**13.** Given the regression in question 5, check whether there is a structural break for 2008.
+**13.** Check the coeficients stability for the regression in question 5
 
-**14.** Check the coeficients stability for the regression in question 5.
+**14.** Check for redundant variables in equation 5. (show the statistic)
 
-**15.** Check for redundant variables in equation 5. (show the statistic)
-
-**16.** Check for omitted variables in equation 5. (show the statistic)
+**15.** Check for omitted variables in equation 5. (show the statistic)
 
 ---
 
@@ -146,6 +144,7 @@ Use the data set in `WAGE2` for this problem. As usual, be sure all of the follo
 4. Verify that  
 
    $$\color{purple}\tilde{\beta}_1 = \beta_1 + \beta_2 \delta_1$$  
+
 
 
 
