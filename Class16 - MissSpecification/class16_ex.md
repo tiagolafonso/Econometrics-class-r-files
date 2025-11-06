@@ -6,7 +6,6 @@ File: `class16_wdi.xlsx`
 
 Eviews
 
-**1.** 
 
 **1.** Specify the variable with the highest minimum value. Specify the variable with the highest maximum value.
 
@@ -147,6 +146,7 @@ Use the data set in `WAGE2` for this problem. As usual, be sure all of the follo
 4. Verify that  
 
    $$\color{purple}\tilde{\beta}_1 = \beta_1 + \beta_2 \delta_1$$  
+
 
 
 
