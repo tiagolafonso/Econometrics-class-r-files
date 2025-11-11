@@ -1,0 +1,20 @@
+---
+title: "Interaction term"
+author: "tiago.afonso@ubi.pt"
+format: html
+editor: visual
+---
+
+# Interaction term
+
+$$
+Y_i=\beta_0+\beta_1X_{i1}+\beta_2X_{i2}+\beta_3(X_{i1}*X_{i2})+\mu_i
+$$
+
+$\beta_1$ is the effect of $X_1$ in $Y$, when $X_2$ is zero
+
+$\beta_2$ is the effect of $X_2$ in $Y$, when $X_1$ is zero
+
+$\beta_3$ is the change in the effect of $X_1$ on $Y$ for each additional unit of $X_2$ and vice-versa.
+
+
