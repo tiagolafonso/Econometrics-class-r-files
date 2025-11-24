@@ -143,6 +143,9 @@ $$
 5.  Reestimate the model by WLS but use the interaction term
     $\color{purple}{e401k\*(inc – 30)}$.
 
+6.  Now estimate the previous model with GLS, What happens now?
+
+
 
 
 
