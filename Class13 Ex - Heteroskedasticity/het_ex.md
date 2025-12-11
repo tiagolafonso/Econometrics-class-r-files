@@ -132,18 +132,19 @@ $$
 \color{purple}{nettfa=\beta_0+\beta_1 inc+\beta_2 (age-25)^2+\beta_3 male+\beta_4 e401k+\beta_5 (e401k*inc)+\mu}_i
 $$
 
-3.  Now estimate the more general model by WLS using the same weights,
+2.  Now estimate the more general model by WLS using the same weights,
     $\color{purple}{1/inc_i}$, as in Table 8.1. Compute the usual and
     robust standard error for the WLS estimator. Is the interaction term
     statistically significant using the robust standard error?
 
-4.  Discuss the WLS coefficient on $\color{purple}{e401k}$ in the more
+3.  Discuss the WLS coefficient on $\color{purple}{e401k}$ in the more
     general model. Is it of much interest by itself? Explain.
 
-5.  Reestimate the model by WLS but use the interaction term
+4.  Reestimate the model by WLS but use the interaction term
     $\color{purple}{e401k\*(inc – 30)}$.
 
-6.  Now estimate the previous model with GLS, What happens now?
+5.  Now estimate the previous model with GLS, What happens now?
+
 
 
 
