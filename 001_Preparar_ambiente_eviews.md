@@ -14,13 +14,13 @@
 
 **3.** Se necessário, inserir as credenciais da UBI.
 
-**4.** Copiar a pasta `EViews13` para uma pasta de fácil acesso no computador (exemplo: `Documentos`) - pode demorar alggum tempo.
+**4.** Copiar a pasta `EViews14` para uma pasta de fácil acesso no computador (exemplo: `Documentos`) - pode demorar alggum tempo.
 
 >COPIAR A PASTA E NÃO CRIAR UM ATALHO ou ARRASTAR A PASTA
 
-**5.** Abrir a pasta do computador e procurar o ficheiro `EViews13.exe` dentro da pasta `EViews13` copiada.
+**5.** Abrir a pasta do computador e procurar o ficheiro `EViews13.exe` dentro da pasta `EViews14` copiada.
 
-**6.** Botão direito do rato no ficheiro `EViews13.exe` e escolher `Afixar no Menu Iniciar`.
+**6.** Botão direito do rato no ficheiro `EViews14.exe` e escolher `Afixar no Menu Iniciar`.
 
 ---
 
